@@ -10,10 +10,10 @@ The program consists of 5 simple .py file.
 To run the program, first we need to execute "task1.py" file and input the id of ensemble we want to study. Then the pdb files of the ensembles will be downloaded automatically. 
 + The features of one conformation(output a) will be save in the path "/data/output/{PED\_id}/..." .
 The feature files are saved as name "feature\_conf\_XXX.json". Here, XXX can be "rg", "asa","ss" and "dm". 
- * "rg" means radius of gyration.
- * "asa" means relative accessible surface area.
- * "ss" means secondary structure.
- * "dm" means distance matrix.
+  * "rg" means radius of gyration.
+  * "asa" means relative accessible surface area.
+  * "ss" means secondary structure.
+  * "dm" means distance matrix.
 + The graphs reflecting the distance between conformations(output b) are saved in the path "/data/output/{PED\_id}/..." as name "task1\_output\_b\_{PED\_id}_X.png", while X means different angle of the 3D picture.
 + Then we execute "task1\_output\_c.py" and get the Pymol image of the conformations(output c) we studied. The image is also saved in the path "/data/output/{PED_id}/..." . It is saved as name "pymol\_image.png".
 
